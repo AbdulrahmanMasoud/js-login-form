@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<section class="site p-4">
+ <div class="container">
+     <div class="row justify-content-center">
+        <div class="login-form col-9 p-0 mt-5">
+            <div class="overleay" id="overleay">
+                <div id="signin" class="overlay-content px-4">
+                <h2 class="pt-5">
+                    Welcome In Gym
+                </h2>
+                <p class="pt-3">
+                    Lorem ipsum dolor sit amet,
+                     consectetur adipisicing elit.
+                      Dignissimos reiciendis expedita,
+                       laboriosam ex unde inventore.
+                </p>
+                <button   onclick="signIn();" class="btn btn-info mt-5 rounded-0">sign in</button>
+            </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-6 p-0">
+                    <div class="form-l p-4">
+                            
+                            <div class="alert  d-none" id="error" role="alert"></div>
+                            <div class="form-group">
+                              <label class="p-0">Email address</label>
+                              <input type="email" class="form-control" id="email" autocomplete="off" placeholder="user">
+                              <i class="fas fa-at ico"></i>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="p-0">Password</label>
+                              <input type="password" class="form-control" id="pass" placeholder="root">
+                              <i class="fas fa-unlock-alt ico"></i>
+                            </div>
+
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="remember" style="
+                              padding: 10px 25px">
+                              <label class="custom-control-label" for="remember">Remember Me</label>
+                            </div>
+
+                            <button onclick="validat();" type="submit" class="btn btn-primary mt-4 rounded-0">Login</button>
+                       
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-6 p-0">
+                    <div id="title" class="title text-center h-100">
+                        <h2 class="pt-5">GEM WebSite</h2>
+                        <p class="pt-3 px-4"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Atque tempore ad quos,
+                            praesentium harum eum dolorem quidem est
+                            totam molestiae, quae obcaeca
+                        </p>
+                        <div class="icons pt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-1 px-2">
+                                    <i class="fab fa-facebook-f icon"></i>
+                                </div>
+                                <div class="col-1 px-2">
+                                    <i class="fab fa-git icon"></i>
+                                </div>
+                                <div class="col-1 px-2">
+                                    <i class="fab fa-pinterest-p icon"></i>
+                                </div>
+                                <div class="col-1 px-2">
+                                    <i class="fab fa-instagram icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>
+</section>
+
+
+
+<script src="./js/bootstrap.min.js.js"></script>
+<script src="./js/all.min.js"></script>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
